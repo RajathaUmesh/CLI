@@ -1,0 +1,8 @@
+1)Addtion of two numbers and print the result
+
+
+2)To append text to end of a file
+      $ echo "Hi this is the next line" >> sample.txt
+
+3)Copy contents to a file and append that to another file(without overiding that file's contents)
+cat sample.txt | tee -a sample2.txt
